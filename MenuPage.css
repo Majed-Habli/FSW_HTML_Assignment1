@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.NavBar{
+    width: 100%;
+    height: 75px;
+    background-color: #761112;
+}
+.Nav_Cont{
+    width: fit-content;
+    right: 110px;
+    top: 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 14px;
+
+}
+.Nav_Cont img{
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+    /* padding-right: 100px; */
+}
+.col{
+    float: right;
+    width: 40px;
+    height: 30px;
+    /* padding-right: -5px; */
+}
+.col_txt{
+    padding-top: 10px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    margin-left: -38px;
+}
+.Top_Banner{
+    width: 100%;
+    /* display: flex; */
+    height: 300px;
+    /* padding: 100px 0px; */
+    background-color: #ED2225;
+}
+.Banner_Image{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(45%,-85%);
+}
+.Footer_Banner{
+    /* background-color: aqua; */
+    position: absolute;
+    /* bottom: 0; */
+    width: 24%;
+}
+.Footer_cont{
+    /* background-color: blue; */
+    width: 90%;
+    margin-left: 40%;
+    margin-top: 250px;
+}
+/* .Footer_cont p{
+    padding: 10px;
+} */
+.row1:after{
+    content: "";
+    display: table;
+    clear: both;
+    /* padding-right: 100px; */
+}
+.col1{
+    float: left;
+    width: fit-content;
+    height: 30px;
+    padding-right: 3px;
+}
+.col_txt1{
+    padding-top: 10px;
+    cursor: pointer;
+    /* color: white; */
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 16px;
+    /* margin-left: -29px; */
+}
+.Body_Header{
+    width: 60%;
+    height: 44px;
+    background-color: #F3F3F3;
+    margin-left: 9.5%;
+    padding-top: 5px;
+}
+/* .Body_Header .row1{
+    margin-right: 32rem;
+} */
+.Button_English{
+    background-color: #AAAAAA;
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    padding-top: 7px;
+    color: white;
+    border: transparent 1px solid;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Button_Arabic{
+    /* background-color: #cf2121; */
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    padding-top: 7px;
+    color: black;
+    border: transparent 1px solid;
+    border-radius: 4px;
+    margin-left: 35.5rem;
+    cursor: pointer;
+}
+.Body_Content{
+    width: 60%;
+    height: 86px;
+    background-color: #EEEEEE;
+    margin-left: 9.5%;
+    padding-top: 5px;
+    margin-top: 70px;
+}
+.Body_Content_Header{
+    padding-left: 1rem;
+}
+.Button_Food{
+    width: 390px;
+    height: 76px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    border: transparent 1px solid;
+    border-radius: 4px;
+    /* margin-left: 36rem; */
+    cursor: pointer;
+    background-color: #474747;
+}
+.Button_Beverages{
+    width: 390px;
+    height: 76px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    border: transparent 1px solid;
+    border-radius: 4px;
+    /* margin-left: 1rem; */
+    cursor: pointer;
+    background-color: #FAFAFA;
+}
+.Body_Content_List{
+    margin-top: 3.4rem;
+    width: 100%;
+}
+.Nav_List{
+    /* background-color: aqua; */
+    width: 230px;
+    /* height: 100%; */
+}
+.Line{
+    width:230px;
+    height: 5px;
+    background-color: #ED2225;
+    margin-bottom: 1rem;
+}
+.row2:after{
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 1rem;
+}
+.row2 p{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+.col2{
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 15px;
+}
+h4{
+    font-size: 24px;
+    color: #D9423F;
+}
+.Section{
+    width: 540px;
+}
+.Section_Body{
+    /* background-color: #d33737; */
+    width: 100%;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+.item_Box{
+    width: fit-content;
+    height: fit-content;
+    /* padding: 0.3rem; */
+    margin-top: 1rem;
+    background-color: #FAFAFA;
+}
